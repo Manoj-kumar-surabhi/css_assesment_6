@@ -1,0 +1,113 @@
+body{
+    background-image: url(./shara\ desert.jpg); 
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    background-repeat: no-repeat;
+
+}
+nav{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+}
+.navigation{
+    display: flex;
+    font-size: 32px;
+    color: white;
+    width: 80px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.div1{
+    display: grid;
+    /* grid-template-columns: auto; */
+    color: white;
+    margin-top: 100px;
+    margin-left: 90px;
+   
+}
+#sahara{
+    font-size: 110px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 6px 6px black;
+}
+#lorem{
+   
+    margin: 2px;
+}
+#button{
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 130px;
+}
+.div2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px 90px 0px 90px;
+    grid-gap: 25px;
+    color: white;
+}
+.div2-1{
+    background-image: url(./Cover-for-Shiva-Temples-in-India.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    width: 215px;
+    height: 230px;
+    border-radius: 20px;
+}
+.div2-1:hover{
+   transform: translate(-10px, -10px);
+}
+.div2-2{
+    background-image: url(./pic-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    width: 215px;
+    height: 230px;
+    border-radius: 20px;
+}
+.div2-2:hover{
+   transform: translate(10px, -10px);
+}
+.div2-3{
+    background-image: url(./pic-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    width: 215px;
+    height: 230px;
+    border-radius: 20px;
+}
+.div2-3:hover{
+   transform: translate(-10px, 10px);
+}
+.div2-4{
+    background-image: url(./pic-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    width: 215px;
+    height: 230px;
+    border-radius: 20px;
+}
+.div2-4:hover{
+   transform: translate( 10px, 10px);
+}
